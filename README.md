@@ -26,9 +26,13 @@ git clone https://github.com/OMzaiswal/assignment-pycray.git
 3. create .env.local in apps/web
 4. copy .env.example to .env.local
 5. pnpm install
+```sh
 6. pnpm run dev --filter=web
-7. open chrome http://localhost:3001/events
+```
+7. open chrome and navigate http://localhost:3001/events
 
+
+code added - apps/web/app/[locale]/(home)/events && apps/web/components/EventComponent.tsx
 ***************************************************************
 
 
