@@ -6,7 +6,7 @@ import { Cases } from './components/cases';
 import { CTA } from './components/cta';
 import { FAQ } from './components/faq';
 import { Features } from './components/features';
-import { Hero } from './components/hero';
+// import { Hero } from './components/hero';
 import { Stats } from './components/stats';
 import { Testimonials } from './components/testimonials';
 
@@ -37,13 +37,13 @@ const Home = async ({ params }: HomeProps) => {
           Beta feature now available
         </div>
       )}
-      <Hero dictionary={dictionary} />
+      {/* <Hero dictionary={dictionary} /> */}
       <Cases dictionary={dictionary} />
       <Features dictionary={dictionary} />
       <Stats dictionary={dictionary} />
       <Testimonials dictionary={dictionary} />
       <FAQ dictionary={dictionary} />
-      <CTA dictionary={dictionary} />
+      {/* <CTA dictionary={dictionary} /> */}
     </>
   );
 };
