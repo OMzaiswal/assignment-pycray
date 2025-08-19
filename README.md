@@ -14,11 +14,33 @@
 
 ## Getting Started
 
-Clone the repo using:
+
+************************************************************
+Steps for assignment:
+
+1. Clone the repo using:
 
 ```sh
-npx next-forge@latest init
+git clone https://github.com/OMzaiswal/assignment-pycray.git
 ```
+2. cd assgnment-pycray
+3. create .env.local in apps/web
+4. copy .env.example to .env.local
+5. pnpm install
+6. pnpm run dev --filter=web
+7. open chrome http://localhost:3001/events
+
+***************************************************************
+
+
+
+
+
+
+
+
+
+
 
 Then read the [docs](https://www.next-forge.com/docs) for more information.
 
